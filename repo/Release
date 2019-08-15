@@ -1,0 +1,8 @@
+Origin: Jotyx's Repo
+Label: Jotyx's repo
+Suite: stable
+Version: 1.0
+Codename: jotyx
+Architecture: iphoneos-arm
+Components: main
+Description: Jotyx's Cydia Repository

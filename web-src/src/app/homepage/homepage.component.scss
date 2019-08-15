@@ -1,0 +1,53 @@
+.buttons-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.button-style {
+  background: rgba(2, 4, 1, 0.20);
+  color: rgba(237, 237, 237, 0.8);
+  width: 300px;
+  height: 60px;
+  border: gray 1px solid;
+  border-radius: 6px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(82, 82, 82, 0.15)
+  }
+
+  &:active {
+    background: rgba(2, 4, 1, 0.15);
+  }
+}
+
+.container {
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -30px;
+}
+
+.background-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: -100;
+
+  &.first {
+    background-image: url("../../assets/images/painting.jpg");
+    top: 0;
+  }
+  &.second {
+    background-image: url("../../assets/images/sunset.jpg");
+    bottom: -100%;
+  }
+}

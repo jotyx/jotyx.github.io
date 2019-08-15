@@ -1,0 +1,11 @@
+<div class="background-div first" [ngStyle]="slide1Style"></div>
+<div class="background-div second" [ngStyle]="slide2Style"></div>
+
+<div class="buttons-wrapper">
+  <div class="container">
+    <button (click)="redirectToCydiaRepo()" class="button-style">Cydia Repository</button>
+    <button (click)="redirectToGithub()" class="button-style">Jotyx's Github</button>
+    <button *ngIf="activeWallpaper === 1" (click)="nextScreen()" class="button-style">Change Wallpaper</button>
+    <button *ngIf="activeWallpaper === 2" (click)="previousScreen()" class="button-style">Change Wallpaper</button>
+  </div>
+</div>
