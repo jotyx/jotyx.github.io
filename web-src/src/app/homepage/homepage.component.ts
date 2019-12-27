@@ -24,6 +24,10 @@ export class HomepageComponent implements OnInit {
     window.location.href = 'https://github.com/jotyx?tab=repositories';
   }
 
+  redirectToNetwEx() {
+    window.location.href = 'https://jotyx.github.io/netwex/index.html';
+  }
+
   nextScreen() {
     this.slide1Style = {
       transition: 'top 0.5s linear',

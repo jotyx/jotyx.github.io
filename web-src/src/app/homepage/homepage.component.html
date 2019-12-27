@@ -3,6 +3,7 @@
 
 <div class="buttons-wrapper">
   <div class="container">
+    <button (click)="redirectToNetwEx()" class="button-style">Netwex</button>
     <button (click)="redirectToCydiaRepo()" class="button-style">Cydia Repository</button>
     <button (click)="redirectToGithub()" class="button-style">Jotyx's Github</button>
     <button *ngIf="activeWallpaper === 1" (click)="nextScreen()" class="button-style">Change Wallpaper</button>
